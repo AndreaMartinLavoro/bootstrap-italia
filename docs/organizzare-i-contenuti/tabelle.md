@@ -555,12 +555,6 @@ Usa `.table-responsive{-sm|-md|-lg|-xl}` come necessario per creare tabelle resp
 {% endunless %}{% endfor %}
 </div>
 
-{% highlight html %}
-{% for bp in site.data.breakpoints %}{% unless bp.breakpoint == "xs" %}
-<div class="table-responsive{{ bp.abbr }}">
-  <table class="table">
-    ...
-  </table>
-</div>
-{% endunless %}{% endfor %}
-{% endhighlight %}
+
+
+<footer>© Minimal.Py</footer>
